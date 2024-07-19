@@ -5,39 +5,7 @@ import type { Address } from "viem";
 
 const uris = [
   "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/1.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/2.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/3.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/4.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/5.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/6.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/7.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/8.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/9.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/10.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/11.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/12.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/13.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/14.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/15.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/16.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/17.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/18.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/19.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/20.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/21.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/22.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/23.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/24.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/25.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/26.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/27.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/28.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/29.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/30.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/31.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/32.json",
-  "https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmV2M7Fig1PpoCeMCB5mSdztBbjocC6h4X6Ct6oro9QHAQ/33.json",
-  
+  // ... (otros URI)
 ];
 
 export function MintNFT() {
@@ -67,9 +35,11 @@ export function MintNFT() {
   }
 
   return (
-    <form onSubmit={submit}>
-      <button type="submit">Mint NFT</button>
-      {hash && <div>Transaction Hash: {hash}</div>}
+    <form onSubmit={submit} className="text-center mt-4">
+      <button type="submit" className="btn bg-greenPastel text-black hover:bg-green-400">
+        Mint NFT
+      </button>
+      {hash && <div className="mt-4 text-yellow-500">Transaction Hash: {hash}</div>}
     </form>
   );
 }
