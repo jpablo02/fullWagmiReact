@@ -27,8 +27,8 @@ const Home = () => {
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
               </Button>
-              <div className="mb-8 xl:mb-0">
-                
+              <div className="mb-8 xl:mb-0" >socials
+                <Social containerStyles={undefined} iconStyles={undefined} />
               </div>
             </div>
           </div>
