@@ -27,9 +27,13 @@ const Home = () => {
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
               </Button>
-              <div className="mb-8">
-                socials
-                <Social containerStyles={undefined} iconStyles={undefined} />
+              <div className="mb-8 xl:mb-0">
+                <Social
+                  containerStyles={"flex gap-6"}
+                  iconStyles={
+                    "w-9 h-9 border border-accent-DEFALUT rounded-full flex justify-center items-center text-accent-DEFALUT text-base hover:bg-accent-DEFALUT hover:text-primary hover:transition-all duration-500"
+                  }
+                />
               </div>
             </div>
           </div>
