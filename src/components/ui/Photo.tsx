@@ -6,14 +6,14 @@ const Photo = () => {
   return (
     <div className="w-full h-full relative">
       <motion.div>
-        <div className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px]">
+        <div className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten">
           <Image
-            src="/drum.png"
+            src="https://bafybeifgvjz7fx7q7ubbbos32ffliiu7c7lsykcsdkvcmitjfkt3gksvge.ipfs.dweb.link/"
             priority
             quality={100}
             fill
-            alt=""
-            className=""
+            alt="/pablo.jpg"
+            className="object-contain"
           />
         </div>
       </motion.div>
