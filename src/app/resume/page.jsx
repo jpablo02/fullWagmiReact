@@ -180,8 +180,32 @@ const Resume = () => {
           </TabsList>
 
           {/*content*/}
-          <div>
-            content
+          <div className="min-h-[70vh] w-full">
+            {/*experience */}
+            <TabsContent value="experience" className="w-full">
+              experience
+            </TabsContent>
+
+             {/*education */}
+             <TabsContent value="education" className="w-full">
+              education
+            </TabsContent>
+
+             {/*skills */}
+             <TabsContent value="skills" className="w-full">
+              skills
+            </TabsContent>
+
+             {/*projects */}
+             <TabsContent value="projects" className="w-full">
+              projects
+            </TabsContent>
+            
+             {/*about */}
+            <TabsContent value="aboutme" className="w-full">
+              about me
+            </TabsContent>
+
           </div>
         </Tabs>
       </div>
