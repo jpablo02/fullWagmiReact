@@ -22,19 +22,21 @@ const Photo = () => {
           }}
           className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
         >
-          <Image
-            src="https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmRTw6jDucssqbcy2W947KXAgcRsu38xf9fSC5d4hecEMV"
-            priority
-            quality={100}
-            fill
-            alt="/pablo.jpg"
-            className="object-contain"
-          />
+          
+            {/* <Image
+              src="https://chocolate-legislative-lamprey-152.mypinata.cloud/ipfs/QmRTw6jDucssqbcy2W947KXAgcRsu38xf9fSC5d4hecEMV"
+              priority
+              quality={100}
+              fill
+              alt="/pablo.jpg"
+              className="object-contain"
+            /> */}
+          
         </motion.div>
 
         {/*circle*/}
         <motion.svg
-          className="w-[300px] xl:w-[560px] h-[300px] xl:h-[506]"
+          className="w-[300px] xl:w-[506px] h-[300px] xl:h-[506]"
           fill="transparent"
           viewBox="0 0 506 506"
           xmlns="http://www.pablodrum.xyz"
@@ -47,15 +49,15 @@ const Photo = () => {
             strokeWidth="4"
             strokeLinecap="round"
             strokeLinejoin={"round"}
-            initial={{strokeDasharray: "24 10 0 0"}}
+            initial={{ strokeDasharray: "24 10 0 0" }}
             animate={{
-              strokeDasharray:[ "15 120 25 25" ,"16 25 92 72","4 250 22 22"],
-              rotate:[120,360],              
+              strokeDasharray: ["15 120 25 25", "16 25 92 72", "4 250 22 22"],
+              rotate: [120, 360],
             }}
             transition={{
-              duration:20,
-              repeat:Infinity,
-              repeatType:"reverse",
+              duration: 20,
+              repeat: Infinity,
+              repeatType: "reverse",
             }}
           />
         </motion.svg>

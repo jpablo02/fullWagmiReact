@@ -13,37 +13,25 @@ const config = {
     container: {
       center: true,
       padding: "15px",
-      screens: 
-      {
-        sm:"640px",
-        sd:"768px",
-        lg:"960px",
-        xl:"1200px",
-        
+      screens: {
+        sm: "640px",
+        md: "768px",
+        lg: "960px",
+        xl: "1200px",
       },
-      
     },
 
-    fontFamily:{
+    fontFamily: {
       primary: "var(--font-jetbrainsMono)",
     },
     extend: {
-
-      colors:{
-        primary:'#1c1c22',
-        accent:{
-          DEFALUT:'#00ff99',
-          hover:'#00e187',
-          
-        }
-
-      
-
+      colors: {
+        primary: "#1c1c22",
+        accent: {
+          DEFALUT: "#00ff99",
+          hover: "#00e187",
+        },
       },
-
-
-
-
 
       keyframes: {
         "accordion-down": {
