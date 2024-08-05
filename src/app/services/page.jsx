@@ -9,28 +9,28 @@ const services = [
     title: "Web 3 Development",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. debitis quibusdam.",
-    href: "",
+    href: "/",
   },
   {
     num: "02",
     title: "Smart Contracts",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. debitis quibusdam.",
-    href: "",
+    href: "/",
   },
   {
     num: "03",
     title: "NFT Design",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. debitis quibusdam.",
-    href: "",
+    href: "/",
   },
   {
     num: "04",
     title: "Real World Assets Tokens",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. debitis quibusdam.",
-    href: "",
+    href: "/",
   },
 ];
 import { motion } from "framer-motion";
